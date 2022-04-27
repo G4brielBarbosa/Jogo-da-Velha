@@ -24,5 +24,11 @@ Adicionei algumas funcionalidades:
 
 ![Modelo celular](https://user-images.githubusercontent.com/98058431/165620069-fe087349-4aa8-49d3-bcb7-74c312e1091a.gif)
 
+<br>
+<br>
+<br>
+
+Você pode <a href="https://g4brielbarbosa.github.io/Jogo-da-Velha/">acessar o Jogo da Velha aqui</a>
+
 
 
