@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: purple;
+}
+
+.containerStage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* First Display */
+
+
+.containerOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerOne h1{
+    color: gold;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.gameMode{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gameMode button {
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: purple;
+    background-color: gold;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+
+}
+
+.gameMode button:hover {
+    top: -2px;
+    box-shadow: 0 2px 2px gold;
+    
+}
+
+/* Finish First Display */
+
+
+/* Second Dislay */
+.containerTwo{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTwo h1{
+    color: gold;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+
+.containerPlayer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerPlayer h3{
+    color: gold;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.iconPlayer{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons{
+    margin: 0 1rem;
+    font-size: 50px;
+    line-height: 100px;
+    cursor: pointer;
+
+}
+
+.icons:hover{
+    
+    margin: 0 1rem;
+    font-size: 60px;
+    line-height: 120px;
+
+}
+
+.icons2{
+    margin: 0 1rem;
+    font-size: 50px;
+    line-height: 100px;
+    cursor: pointer;
+
+}
+
+.icons2:hover{
+    
+    margin: 0 1rem;
+    font-size: 60px;
+    line-height: 120px;
+
+}
+
+.menubtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.menubtn button {
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: purple;
+    background-color: gold;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+
+}
+
+.menubtn button:hover {
+    top: -2px;
+    box-shadow: 0 2px 2px gold;
+}
+/* Finish Second Display */
+
+
+
+/* Third Dislpay */
+.containerThree{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerScore{
+    display: flex;
+    flex-direction: row;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    background-color: gold;
+    padding: 0 0.8rem;
+    margin: 2rem 1rem;
+    border-radius: 0.8rem;
+
+}
+
+#scoreIcons{
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#scoreIcons2{
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.stage{
+    margin-bottom: 1rem;
+}
+
+.square{
+    
+    width: 100px;
+    height: 100px;
+    border: 1px solid gold;
+    display: inline-block;
+}
+
+.fox{
+    position: relative;
+}
+
+.fox:after{
+    position: absolute;
+    content: "\1F98A";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+.fox2{
+    position: relative;
+}
+
+.fox2:after{
+    position: absolute;
+    content: "\1F98A";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+.lion{
+    position: relative;
+}
+
+.lion:after{
+    position: absolute;
+    content: "\1F981";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+.lion2{
+    position: relative;
+}
+
+.lion2:after{
+    position: absolute;
+    content: "\1F981";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+.pig{
+    position: relative;
+}
+
+.pig:after{
+    position: absolute;
+    content: "\1F437";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+.pig2{
+    position: relative;
+}
+
+.pig2:after{
+    position: absolute;
+    content: "\1F437";
+    font-size: 50px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+}
+
+
+
+/* Finish Third Display */
