@@ -28,7 +28,7 @@ Adicionei algumas funcionalidades:
 <br>
 <br>
 
-<a href="https://g4brielbarbosa.github.io/Jogo-da-Velha/">acesse o Jogo da Velha aqui</a>
+<a href="https://g4brielbarbosa.github.io/Jogo-da-Velha/">Acesse o Jogo da Velha aqui</a>
 
 
 
